@@ -1,0 +1,2 @@
+# Branch 01 is pure Python (no API keys, no ML libraries).
+pytest>=8

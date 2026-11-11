@@ -1,0 +1,14 @@
+[
+  {"qid": "q01", "question": "What does retrieval augmented generation combine?", "relevant": {"doc_01": 3}},
+  {"qid": "q02", "question": "How do chunk size and overlap affect retrieval?", "relevant": {"doc_02": 3}},
+  {"qid": "q03", "question": "Which vector databases can store embeddings?", "relevant": {"doc_04": 3, "doc_03": 1}},
+  {"qid": "q04", "question": "How does hybrid search merge dense and keyword results?", "relevant": {"doc_06": 3, "doc_05": 2, "doc_03": 1}},
+  {"qid": "q05", "question": "How do we reorder the top results before the LLM sees them?", "relevant": {"doc_07": 3}},
+  {"qid": "q06", "question": "How can we tell if an answer is invented instead of grounded?", "relevant": {"doc_08": 3}},
+  {"qid": "q07", "question": "Why should retrieval be evaluated first?", "relevant": {"doc_09": 3, "doc_14": 1}},
+  {"qid": "q08", "question": "What is the difference between precision and recall at k?", "relevant": {"doc_10": 3}},
+  {"qid": "q09", "question": "Which metric rewards the first relevant result being ranked at the top?", "relevant": {"doc_11": 3, "doc_12": 1}},
+  {"qid": "q10", "question": "Which ranking metric uses graded relevance with a logarithmic discount?", "relevant": {"doc_12": 3, "doc_11": 1}},
+  {"qid": "q11", "question": "What should my test set with expected outputs contain?", "relevant": {"doc_14": 3}},
+  {"qid": "q12", "question": "How do I orchestrate an agentic RAG workflow?", "relevant": {"doc_13": 3, "doc_01": 1}}
+]

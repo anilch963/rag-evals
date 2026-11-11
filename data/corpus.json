@@ -1,0 +1,17 @@
+[
+  {"id": "doc_01", "title": "What is RAG", "text": "Retrieval Augmented Generation (RAG) combines a retriever that fetches relevant documents from a knowledge base with a large language model that generates an answer grounded in those documents."},
+  {"id": "doc_02", "title": "Chunking", "text": "Chunking splits long documents into smaller passages before embedding. Chunk size and chunk overlap strongly affect retrieval quality in a RAG pipeline."},
+  {"id": "doc_03", "title": "Embeddings", "text": "Embeddings are dense vectors that represent the meaning of text. Similar texts have embeddings that are close together under cosine similarity."},
+  {"id": "doc_04", "title": "Vector databases", "text": "Vector databases such as ChromaDB, Pinecone, Qdrant and pgvector store embeddings and support fast approximate nearest neighbour search."},
+  {"id": "doc_05", "title": "BM25", "text": "BM25 is a sparse keyword retrieval algorithm that scores documents using term frequency, inverse document frequency and document length normalisation."},
+  {"id": "doc_06", "title": "Hybrid search", "text": "Hybrid search combines dense vector retrieval with sparse keyword retrieval like BM25, often merging results with reciprocal rank fusion."},
+  {"id": "doc_07", "title": "Reranking", "text": "A reranker such as a cross-encoder re-scores the top retrieved documents so the most relevant passages move to the first positions before generation."},
+  {"id": "doc_08", "title": "Hallucination", "text": "Hallucination happens when a language model generates content that is not supported by the retrieved context or by facts. Faithfulness metrics detect hallucination."},
+  {"id": "doc_09", "title": "Why evaluate retrieval", "text": "If the retriever does not fetch the right documents, the generator cannot produce a correct grounded answer. Retrieval evaluation is therefore the first step of RAG evaluation."},
+  {"id": "doc_10", "title": "Precision and recall", "text": "Precision at k measures how many of the top k retrieved documents are relevant. Recall at k measures how many of all relevant documents appear in the top k."},
+  {"id": "doc_11", "title": "MRR", "text": "Mean Reciprocal Rank (MRR) averages one divided by the rank of the first relevant document across queries. It rewards putting a relevant document at the very top."},
+  {"id": "doc_12", "title": "NDCG", "text": "Normalized Discounted Cumulative Gain (NDCG) uses graded relevance and discounts gains logarithmically by rank, comparing the ranking to an ideal ordering."},
+  {"id": "doc_13", "title": "LangGraph", "text": "LangGraph is a framework for building stateful multi-agent workflows as graphs, often used to orchestrate retrieval, grading and generation steps in agentic RAG."},
+  {"id": "doc_14", "title": "Golden dataset", "text": "A golden evaluation dataset contains questions, the ids of the relevant documents and reference answers. It is the ground truth used to score a RAG system."},
+  {"id": "doc_15", "title": "FastAPI", "text": "FastAPI is a Python web framework for building APIs quickly with type hints, commonly used to serve RAG pipelines as REST endpoints."}
+]
